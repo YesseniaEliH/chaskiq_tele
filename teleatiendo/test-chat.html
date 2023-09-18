@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>Test - Teleatiendo chat</head>
+<body>
+<script>
+    (function(d,t) {
+        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src="http://app.myapp.test:5000/embed.js"
+        s.parentNode.insertBefore(g,s);
+        g.onload=function(){
+            new window.ChaskiqMessengerEncrypted({
+                domain: 'http://app.myapp.test:5000',
+                ws:  'ws://app.myapp.test:5000/cable',
+                app_id: "V4draTzf7At1WH2fSw1vAVG2",
+                data: {
+                    email: "user@email.com",
+                    identifier_key: "fc3eb127099d1de01ce1c19a0471526ed98954a2ca3a5fb9a57b2146af238187",
+                    properties: { }
+                },
+                lang: "es"
+            })
+        }
+    })(document,"script");
+</script>
+</body>
+</html>
