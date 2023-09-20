@@ -1,0 +1,11 @@
+[
+  {
+    "id": "2",
+    "name": "Teleatiendo",
+    "preferences": {"timezone": "America/Lima", "domain_url": "https://teleatiendo.minsa.gob.pe/, http://127.0.0.1:8000/, http://localhost:8000/, http://app.chaskiq.test/", "reply_time": "auto", "custom_fields": [{"name": "sector_user", "type": "string"}, {"name": "gestion_usuarios", "type": "string"}], "team_schedule": [{"to": "18:00", "day": "mon", "from": "08:00"}, {"to": "18:00", "day": "tue", "from": "08:00"}, {"to": "18:00", "day": "wed", "from": "08:00"}, {"to": "18:00", "day": "thu", "from": "08:00"}, {"to": "18:00", "day": "fri", "from": "08:00"}], "avatar_settings": {"style": "sunset", "palette": "fc284f,ff824a,fea887,f6e7f7,d1d0d7"}, "register_visits": "true", "active_messenger": "true", "inbound_settings": {"users": {"enabled": true, "segment": "all", "idle_sessions_after": 0, "users_enable_inbound": true, "close_conversations_after": 0}, "enabled": true, "visitors": {"enabled": true, "segment": "all", "idle_sessions_after": 0, "visitors_enable_inbound": true, "close_conversations_after": 0}}, "gather_social_data": "", "lead_tasks_settings": {}, "user_tasks_settings": {}, "customization_colors": {"pattern": null, "primary": "#465775", "secondary": "#633b93"}, "outgoing_email_domain": "gmail.com", "inline_new_conversations": ""},
+    "created_at": "2023-07-11 14:26:18.764",
+    "updated_at": "2023-07-11 16:55:38.119",
+    "owner_id": 2
+  }
+]
+  
